@@ -1,0 +1,41 @@
+body {
+  background-color: #ff6a3e;
+  color: #ffba43;
+}
+.button {
+  box-shadow: 2px 2px 5px black;
+  background-color: #ff6a3e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+  }
+.button:hover {
+  background-color: #ffba43;
+}
+
+       .animate {
+        width: 100px;
+        height: 100px;
+        background-color: #ff6a3e;
+        animation: example 4s infinite alternate;
+      }
+    </style>
+.nav {
+  background-color: #ff6a3e;
+}
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav ul li a:hover {
+  color: #ffba43;
+}

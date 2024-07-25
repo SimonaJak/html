@@ -1,0 +1,18 @@
+$primary-color: #ff6a3e;
+$secondary-color: #ffba43;
+
+@mixin box-shadow($x, $y, $blur, $color) {
+  -webkit-box-shadow: $x $y $blur $color;
+  -moz-box-shadow: $x $y $blur $color;
+  box-shadow: $x $y $blur $color;
+}
+         @keyframes example {
+            0% {
+              background-color: #ff6a3e;
+            }
+            50% {
+              background-color: #ffba43;
+            }
+            100% {
+              background-color: #1e90ff;
+            }

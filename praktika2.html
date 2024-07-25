@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animacija</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
+            animation: colorAndSizeChange 5s infinite;
+        }
+        @keyframes colorAndSizeChange {
+            0% {
+                background-color: #4CAF50;
+                width: 100px;
+                height: 100px;
+            }
+            50% {
+                background-color: #FF5722;
+                width: 150px;
+                height: 150px;
+            }
+            100% {
+                background-color: #4CAF50;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-box"></div>
+</body>
+</html>
